@@ -30,6 +30,12 @@ button {
 .quote {
   margin-bottom: 5px;
 }
+
+.quote1 {
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+}
 .source {
 margin-top: 0;
 }
