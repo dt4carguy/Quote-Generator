@@ -39,3 +39,10 @@ button {
 .source {
 margin-top: 0;
 }
+
+.my-story {
+  margin: 3% 7%;
+}
+.my-story-img {
+  padding: 0 25%;
+}

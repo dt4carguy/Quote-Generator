@@ -1,8 +1,20 @@
 //jshint esversion:6
 
-$("button").click(function(){
+var quoteOriginal = "I never thought that Spider-Man would become the worldwide icon that he is. I just hoped the books would sell and I’d keep my job.";
+var sourceOriginal = "- Stan Lee";
+
+//Click for Quote Button action
+$(".quote1").click(function(){
   getQuote();
 });
+
+//Return to Home page action
+$(".return-home").click(function(){
+  $(".img-sel").attr("src", "images/base-image.jpg");
+  $(".quote").html(quoteOriginal);
+  $(".source").html(sourceOriginal);
+});
+
 function getQuote() {
 //Establish quote array
 var quote = [
