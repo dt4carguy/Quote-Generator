@@ -10,7 +10,6 @@ h1 {
 
 a {
   text-decoration: none;
-
 }
 
 button {
@@ -18,31 +17,69 @@ button {
 }
 
 .home {
-  margin: 3% 7%;
+  margin-top: 50px;
+  margin-right: 7%;
+  margin-left: 7%;
+}
+
+.nav-bar {
+  overflow: hidden;
+  background-color: #625261;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  padding-right: 20px;
 }
 
 .nav-item {
-  display:inline-block;
-  padding: 5px;
+  float: right;
+  display: block;
+  padding:10px;
+  text-align: center;
 
 }
 
+.img-sel {
+border-radius: 5%;
+}
 .quote {
   margin-bottom: 5px;
 }
 
-.quote1 {
+.btn-quote1 {
   display: block;
   margin: auto;
   margin-bottom: 10px;
 }
+
+.own-quote {
+  margin-right: 2%;
+}
+
 .source {
-margin-top: 0;
+  display: inline-block;
+  margin-top: 0;
+}
+
+.stan-img {
+  border-radius: 20%;
+  margin-left: 15px;
+  width: 40px;
+  margin-bottom: 10px;
+}
+
+.quote-clicked {
+  display: none;
 }
 
 .my-story {
   margin: 3% 7%;
 }
+
 .my-story-img {
   padding: 0 25%;
+}
+
+footer {
+  margin-top: 15px;
 }

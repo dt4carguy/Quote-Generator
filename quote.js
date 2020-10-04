@@ -4,7 +4,8 @@ var quoteOriginal = "I never thought that Spider-Man would become the worldwide 
 var sourceOriginal = "- Stan Lee";
 
 //Click for Quote Button action
-$(".quote1").click(function(){
+$(".get-quote").click(function(){
+  $(".stan-img").addClass("quote-clicked");
   getQuote();
 });
 
@@ -13,19 +14,25 @@ $(".return-home").click(function(){
   $(".img-sel").attr("src", "images/base-image.jpg");
   $(".quote").html(quoteOriginal);
   $(".source").html(sourceOriginal);
+  $(".stan-img").removeClass("quote-clicked");
 });
+
+//Own Quote button action
+//$(".own-quote").click(function(){
+//location.href("/add-your-own.html");
+//});
 
 function getQuote() {
 //Establish quote array
 var quote = [
   "With great power, comes great responsibility.",
-  "On your left.",
-  "I'm Batman!",
-  "You won't like me when I'm angry",
-  "My Father believed death was a stepping off point",
-  "I do share! I'm nice like that.",
-  "You pullin'? C'mon represent!",
-  "If I need a gun, I'll take one."
+  "\"On your left.\"",
+  "\"I'm Batman!\"",
+  "\"You won't like me when I'm angry\"",
+  "\"My Father believed death was a stepping off point\"",
+  "\"I do share! I'm nice like that.\"",
+  "\"You pullin'? C'mon represent!\"",
+  "\"If I need a gun, I'll take one.\""
 
   ];
 
